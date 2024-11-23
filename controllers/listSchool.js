@@ -26,7 +26,7 @@ exports.listSchool = async (req, res) => {
                     .json({
                         success: true,
                         data : rows,
-                        message:'data is insert'
+                        message:'data is sorted'
                     })
             }
         })
