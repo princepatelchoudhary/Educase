@@ -8,6 +8,7 @@ exports.addSchool = async (req, res) => {
                 success: false,
                 message: " data is incomplete"
             })
+            return;
         }
 
         connection.query(`insert into Description (name,address,latitude, 

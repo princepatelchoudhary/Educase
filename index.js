@@ -12,16 +12,3 @@ app.use("/api/v1/",route);
 app.listen(3000, () => {
     console.log(`Server started successfully at 3000`);
 });
-
-
-// app.get('/',(req,res)=>{
-//     connection.query('insert into Description (name,address,latitude, longitude) value("prince","bihar",3,4);',(err,rows,fileds)=>{
-//         if(err)
-//         {
-//             console.log(err);
-//         }
-//         else{
-//             res.send(rows);
-//         }
-//     })
-// })
