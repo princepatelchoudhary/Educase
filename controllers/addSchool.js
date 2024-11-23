@@ -23,7 +23,7 @@ exports.addSchool = async (req, res) => {
                     })
             }
             else {
-                res.status(500)
+                res.status(200)
                     .json({
                         success: true,
                         message:'data is insert'
