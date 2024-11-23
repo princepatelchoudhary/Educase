@@ -5,6 +5,6 @@ const {addSchool} = require("../controllers/addSchool");
 const {listSchool} = require("../controllers/listSchool");
 
 router.post('/addSchool',addSchool);
-router.get('/listSchools/:latitude/:longitude',listSchool);
+router.get('/listSchools',listSchool);
 
 module.exports = router;
